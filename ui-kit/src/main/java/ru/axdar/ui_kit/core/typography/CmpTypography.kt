@@ -33,8 +33,8 @@ class CmpTypography(
         defaultFontFamily: FontFamily = cmpSans,
         h1Black: TextStyle = TextStyle(
             fontWeight = FontWeight.Black,
-            fontSize = 24.sp,
-            lineHeight = 28.sp
+            fontSize = 32.sp,
+            lineHeight = 36.sp
         ),
         h1Bold: TextStyle = TextStyle(
             fontWeight = FontWeight.Bold,
@@ -48,8 +48,8 @@ class CmpTypography(
         ),
         h2Bold: TextStyle = TextStyle(
             fontWeight = FontWeight.Bold,
-            fontSize = 324.sp,
-            lineHeight = 36.sp
+            fontSize = 24.sp,
+            lineHeight = 28.sp
         ),
         h2Medium: TextStyle = TextStyle(
             fontWeight = FontWeight.Medium,
@@ -72,24 +72,24 @@ class CmpTypography(
             lineHeight = 28.sp
         ),
         p1Bold: TextStyle = TextStyle(
-            fontWeight = FontWeight.Black,
+            fontWeight = FontWeight.Bold,
             fontSize = 17.sp,
             lineHeight = 24.sp
         ),
         p1Medium: TextStyle = TextStyle(
-            fontWeight = FontWeight.Black,
-            fontSize = 24.sp,
-            lineHeight = 28.sp
+            fontWeight = FontWeight.Medium,
+            fontSize = 17.sp,
+            lineHeight = 24.sp
         ),
         p1Regular: TextStyle = TextStyle(
-            fontWeight = FontWeight.Black,
-            fontSize = 24.sp,
-            lineHeight = 28.sp
+            fontWeight = FontWeight.Normal,
+            fontSize = 17.sp,
+            lineHeight = 24.sp
         ),
         p2Bold: TextStyle = TextStyle(
-            fontWeight = FontWeight.Black,
-            fontSize = 24.sp,
-            lineHeight = 28.sp
+            fontWeight = FontWeight.Bold,
+            fontSize = 14.sp,
+            lineHeight = 20.sp
         ),
         p2Medium: TextStyle = TextStyle(
             fontWeight = FontWeight.Medium,

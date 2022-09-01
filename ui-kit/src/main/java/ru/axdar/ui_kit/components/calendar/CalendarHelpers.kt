@@ -80,7 +80,7 @@ internal fun getYears(currentYear: Int): Array<Int> {
     val calendar = Calendar.getInstance(Locale.getDefault())
     calendar.timeInMillis = 0
     val epochYear = calendar.get(Calendar.YEAR)
-    return Array((currentYear - YEAR_OFFSET) - epochYear) { i ->
+    return Array((currentYear + YEAR_OFFSET) - epochYear) { i ->
         epochYear + i
     }
 }

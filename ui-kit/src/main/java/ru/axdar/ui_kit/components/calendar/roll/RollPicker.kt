@@ -1,5 +1,6 @@
 package ru.axdar.ui_kit.components.calendar.roll
 
+import android.util.Log
 import androidx.compose.animation.*
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
@@ -149,7 +150,11 @@ internal fun <T> RollPicker(
                             style = CmpAppTheme.typography.p3Regular
                         )
                     }
-                    onValueChange(getItem(items, targetPosition))
+                    try {
+                        onValueChange(getItem(items, targetPosition))
+                    } catch (e: Exception) {
+                        Log.d("9999", "RollPicker: $e \n ${e.message}")
+                    }
                 }
             }
         )

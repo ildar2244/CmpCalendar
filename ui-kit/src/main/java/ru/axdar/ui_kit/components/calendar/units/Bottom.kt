@@ -49,7 +49,7 @@ internal fun BottomPanelWithSelectedDates(
             horizontalArrangement = Arrangement.Start
         ) {
             Text(
-                text = stringResource(id = R.string.start_date),
+                text = "${stringResource(id = R.string.start_date)}: ",
                 style = CmpAppTheme.typography.p3MediumUpperCase,
                 color = CmpAppTheme.colors.textSecondary
             )
@@ -65,7 +65,7 @@ internal fun BottomPanelWithSelectedDates(
             horizontalArrangement = Arrangement.End
         ) {
             Text(
-                text = stringResource(id = R.string.end_date),
+                text = "${stringResource(id = R.string.end_date)}: ",
                 style = CmpAppTheme.typography.p3MediumUpperCase,
                 color = CmpAppTheme.colors.textSecondary
             )

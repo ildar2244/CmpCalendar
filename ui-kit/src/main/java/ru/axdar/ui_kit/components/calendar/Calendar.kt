@@ -1,5 +1,6 @@
 package ru.axdar.ui_kit.components.calendar
 
+import android.util.Log
 import androidx.compose.animation.Crossfade
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.animateContentSize
@@ -17,14 +18,9 @@ import ru.axdar.ui_kit.components.calendar.model.CalendarMonth
 import ru.axdar.ui_kit.components.calendar.model.CalendarState
 import ru.axdar.ui_kit.components.calendar.roll.Roller
 import ru.axdar.ui_kit.components.calendar.units.*
-import ru.axdar.ui_kit.components.calendar.units.BottomPanel
-import ru.axdar.ui_kit.components.calendar.units.CalendarBody
-import ru.axdar.ui_kit.components.calendar.units.Header
-import ru.axdar.ui_kit.components.calendar.units.MonthSwitchButtons
-import ru.axdar.ui_kit.components.calendar.units.YearSelectionPanel
 import ru.axdar.ui_kit.core.theme.CmpAppTheme
 
-private const val FILTER_DATE_FORMAT = "yyyy-MM-dd HH:mm:ss"
+private const val FILTER_DATE_FORMAT = "yyyy-MM-dd"
 private const val FULL_DAY = 1000 * 60 * 60 * 24
 private const val ONE_MILLISECOND = 1
 
